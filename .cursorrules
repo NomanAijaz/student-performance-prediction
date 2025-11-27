@@ -1,0 +1,92 @@
+# Student Performance Prediction Project - Cursor Rules
+
+## Project Workflow Protocol
+
+This project follows a **PHASE-BY-PHASE LEARNING APPROACH**. Each phase must be completed in this exact order:
+
+### Phase Workflow Cycle:
+1. **STUDY** - Read and understand the phase study document
+2. **DOCUMENT** - Review/create detailed study materials before implementation
+3. **IMPLEMENT** - Code the phase requirements
+4. **TEST** - Validate implementation works correctly
+5. **CONCLUDE** - Create conclusion document summarizing learnings
+6. **PROCEED** - Only then move to next phase
+
+### Phase Structure:
+- **Study Document Location**: `docs/phase_studies/Phase_XX_Name.md`
+- **Conclusion Document Location**: `docs/phase_conclusions/Phase_XX_Conclusion.md`
+- **Implementation Location**: `notebooks/XX_phase_name.ipynb`
+
+### Documentation Requirements:
+
+#### Study Documents Must Include:
+- Detailed conceptual explanations
+- Mathematical foundations with formulas
+- Code snippets for understanding (not full implementations)
+- Visual diagrams where helpful
+- Key terminology definitions
+- Practical considerations for our dataset
+- Learning objectives and goals
+
+#### Conclusion Documents Must Include:
+- Summary of what was implemented
+- Key learnings and insights
+- Challenges faced and solutions
+- Results and metrics achieved
+- Visualizations created
+- Questions answered
+- Preparation for next phase
+
+### Coding Standards:
+
+1. **Simple Solutions First** - Avoid over-engineering
+2. **No Code Duplication** - Reuse functions across notebooks
+3. **Clean and Organized** - Well-commented, readable code
+4. **Learning-Focused** - Explain WHY, not just WHAT
+5. **Test Everything** - Validate each step works
+6. **Document Assumptions** - Make implicit knowledge explicit
+
+### Project-Specific Rules:
+
+1. **Dataset**: Working with Math course dataset (`student-mat.csv`)
+2. **Target Variable**: Predicting G3 (final grade) using all features including G1, G2
+3. **Approach**: Implementation from scratch first, then compare with sklearn
+4. **Focus**: Deep understanding over quick results
+
+### File Organization:
+
+- Keep notebooks under 300 lines - refactor to `src/` modules if needed
+- Save all plots to `reports/figures/` with descriptive names
+- Document all data transformations
+- Version control all code changes
+
+### Phase Transition Rules:
+
+- **NEVER** skip to next phase without completing current phase cycle
+- **ALWAYS** create conclusion document before moving forward
+- **MUST** test implementation thoroughly before concluding
+- **REQUIRE** explicit confirmation to proceed to next phase
+
+### Quality Checklist (Before Phase Conclusion):
+
+- [ ] Study document exists and is comprehensive
+- [ ] Implementation is complete and tested
+- [ ] Code is clean and well-commented
+- [ ] Results are documented with visualizations
+- [ ] Conclusion document is written
+- [ ] All deliverables for phase are met
+- [ ] Learning objectives achieved
+
+---
+
+## Current Project Status:
+
+- **Current Phase**: Phase 0 - Initial Setup
+- **Next Phase**: Phase 1 - Data Collection & Understanding
+- **Dataset**: Student Math Performance (649 students, 33 attributes)
+- **Target**: G3 (final grade, 0-20 scale)
+
+---
+
+**Remember**: This is a LEARNING project. Take time to understand deeply, not just implement quickly.
+
